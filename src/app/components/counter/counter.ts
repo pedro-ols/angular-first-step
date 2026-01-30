@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { BackButton } from '../back-button/back-button';
 
 @Component({
     selector: 'app-counter',
-    imports: [],
+    imports: [BackButton],
     templateUrl: './counter.html',
     styleUrl: './counter.css',
 })

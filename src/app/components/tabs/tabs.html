@@ -1,0 +1,26 @@
+<main class="container">
+    <app-back-button></app-back-button>
+
+    <h1 class="page-title">Página de Tabs</h1>
+
+    <div class="tabs-container">
+        <div class="tabs-header">
+            <button (click)="switchTab(1)" class="tab-button" [ngClass]="{ 'active-button' : selectedTab === 1 }"> 1 </button>
+            <button (click)="switchTab(2)" class="tab-button" [ngClass]="{ 'active-button' : selectedTab === 2 }"> 2 </button>
+            <button (click)="switchTab(3)" class="tab-button" [ngClass]="{ 'active-button' : selectedTab === 3 }"> 3 </button>
+        </div>
+
+        <div class="tab">
+            @if(selectedTab === 1) {
+            <h3>Olá, esta é a aba 1</h3>
+
+            } @else if (selectedTab === 2) {
+            <h3>Olá, esta é a aba 2</h3>
+
+            } @else {
+            <h3>Olá, esta é a aba 3</h3>
+            }
+
+        </div>
+    </div>
+</main>

@@ -5,3 +5,12 @@
     font-family: 'Trebuchet MS';
     color: #363639;
 }
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #dddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

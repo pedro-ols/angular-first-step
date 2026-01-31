@@ -53,3 +53,57 @@
     color: #dddd;
     font-size: 4rem;
 }
+
+
+/* tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .page-title {
+        font-size: 2.7rem;
+    }
+
+    .counter-box {
+        width: 70%;
+        height: 10rem;
+    }
+
+    .current-number-value {
+        font-size: 3.5rem;
+    }
+}
+
+/* mobile */
+@media (min-width: 600px) and (max-width: 768px) {
+    .page-title {
+        font-size: 2.3rem;
+    }
+
+    .counter-box {
+        width: 70%;
+        height: 10rem;
+    }
+
+    .current-number-value {
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .page-title {
+        font-size: 1.9rem;
+    }
+
+    .counter-box {
+        width: 70%;
+        height: 10rem;
+    }
+
+    .action-btn {
+        width: 4rem;
+        aspect-ratio: 1 / 1;
+        font-size: 2.5rem;
+    }
+
+    .current-number-value {
+        font-size: 2rem;
+    }
+}
